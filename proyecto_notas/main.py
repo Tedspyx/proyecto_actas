@@ -7,7 +7,7 @@ def main():
     wd = wd_driver()
     go_login(wd)     
     click_captcha(wd) 
-    login(wd,"99123011086","Colombia.1997")
+    login(wd,"96123415586","Colombia.1") #Ejemplo para poner cuenta y contraseña
 
     try:
         click_hoja(wd)
